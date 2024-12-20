@@ -1,0 +1,58 @@
+body{
+    margin: 0px 90px;
+}
+.display{
+    background: url('https://grandrestaurantv6-7.b-cdn.net/clean/wp-content/uploads/sites/2/2022/09/hero-1.jpg');
+}
+p{
+   color: black;
+}
+
+h2{
+    color: black;
+    font-size: larger;
+}
+.menu-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.P-box{
+    height: 400px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://cdn.pixabay.com/photo/2014/10/29/19/26/french-fries-508292_640.jpg");
+}
+.p-box{
+    height: 400px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://cdn.pixabay.com/photo/2014/10/29/19/26/french-fries-508292_640.jpg");
+}
+
+
+.center-image {
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: translateY(-50%);
+    z-index: 3;
+    border-radius: 10px;
+    width: 400px;
+    height: auto;
+    animation: rotateImage 20s linear infinite;
+  }
+
+@keyframes rotateImage {
+    0% {
+      transform: translateY(-50%) rotate(0deg);
+    }
+    100% {
+      transform: translateY(-50%) rotate(360deg);
+    }
+  }
